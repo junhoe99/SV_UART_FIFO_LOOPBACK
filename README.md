@@ -47,8 +47,8 @@
 ## 📋 Testcase & Scenario
 ```markdown
   ├── 🗂️ 1. Basic Cases
-  │ ├── 📂 1.1 Reset Test
-  │ └── 📂 1.2 Single Byte Loopback
+  │    ├── 📂 1.1 Reset Test
+  │    └── 📂 1.2 Single Byte Loopback
   │  
   └── 🗂️ 2. Functional Cases  
        ├── 📂2.1 Sequential Data Flow
