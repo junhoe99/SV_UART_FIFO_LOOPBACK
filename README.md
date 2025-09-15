@@ -43,9 +43,10 @@
 ## 📚 TB Architecture
 ![System Block](https://github.com/user-attachments/assets/941bc3b9-728d-4a0c-8083-82cdb666bb6d)
 
-
+```markdown
 ## 📋 Testcase & Scenario
-  
+
+  ```text
   ├── 🗂️ 1. Basic Cases
   │ ├── 📂 1.1 Reset Test
   │ └── 📂 1.2 Single Byte Loopback
