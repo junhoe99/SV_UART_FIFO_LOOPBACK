@@ -43,9 +43,9 @@
 ## 📚 TB Architecture
 ![System Block](https://github.com/user-attachments/assets/941bc3b9-728d-4a0c-8083-82cdb666bb6d)
 
-```markdown
-## 📋 Testcase & Scenario
 
+## 📋 Testcase & Scenario
+```markdown
   ```text
   ├── 🗂️ 1. Basic Cases
   │ ├── 📂 1.1 Reset Test
