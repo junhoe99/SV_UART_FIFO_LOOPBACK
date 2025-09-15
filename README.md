@@ -46,7 +46,6 @@
 
 ## 📋 Testcase & Scenario
 ```markdown
-  ```text
   ├── 🗂️ 1. Basic Cases
   │ ├── 📂 1.1 Reset Test
   │ └── 📂 1.2 Single Byte Loopback
