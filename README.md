@@ -20,7 +20,7 @@
 - **Oversampling Rate** : 16  
   UART는 비동기 통신이므로 TX/RX 클럭이 완벽히 맞지 않아도 동작해야 함 → **16배 Oversampling**으로 타이밍 동기화 & 정확한 데이터 샘플링 구현
 ---
-### **2. System Block Diagram**
+### **2. DUT System Block Diagram**
 ![System Block](https://github.com/user-attachments/assets/f42e7085-e6bc-44c7-9b80-bd48747d063a)
 
 ---
