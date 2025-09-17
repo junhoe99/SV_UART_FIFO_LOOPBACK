@@ -69,7 +69,7 @@
 [INFO] Reset asserted at 100ns
 [INFO] FIFO empty: PASS
 [INFO] TX idle: PASS
-
+```
 
 #### 1.2 Single Byte Loopback
 - **목적**: 단일 바이트가 FIFO를 거쳐 UART Loopback을 통해 동일하게 출력되는지 검증
@@ -81,7 +81,7 @@
 [INFO] TX Data: 0xA5
 [INFO] RX Data: 0xA5
 [PASS] Single Byte Loopback Test
-
+```
 ### 🔹 2. Functional Cases
 
 #### 2.1 Sequential Data Flow
@@ -95,7 +95,7 @@
 [INFO] TX: 0x02, RX: 0x02
 ...
 [PASS] Sequential Data Flow Test
-
+```
 
 #### 2.2 Random Data Flow
 - **목적**: 랜덤 데이터 스트림에서 데이터 무결성 검증 및 FIFO Overflow/Underflow 여부 확인
@@ -107,7 +107,7 @@
 [INFO] Random test started (seed=42)
 [INFO] Total TX=1000, RX=1000, Error=0
 [PASS] Random Data Flow Test
-
+```
 
 ## 🔥 Insights
 --------------------------
