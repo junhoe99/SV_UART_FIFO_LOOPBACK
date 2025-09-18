@@ -60,12 +60,12 @@
 ### 🔹 1. Basic Cases
 
 #### 1.1 Reset Test
+**목적**: DUT Reset 동작 시, 내부 FIFO 및 TX/RX 상태가 초기화되는지 확인  
+**결과**: 정상적으로 모든 레지스터가 초기화되고, 출력 신호가 idle 상태로 복귀함  
+
 <table>
 <tr>
-<td width="60%" valign="top">
-  
-- **목적**: DUT Reset 동작 시, 내부 FIFO 및 TX/RX 상태가 초기화되는지 확인  
-- **결과**: 정상적으로 모든 레지스터가 초기화되고, 출력 신호가 idle 상태로 복귀함  
+<td width="50%" valign="top">
 
 **Log 요약**:
 <pre><code>[INFO] Reset asserted at 100ns
@@ -74,7 +74,7 @@
 </code></pre>
 
 </td>
-<td width="40%" valign="top">
+<td width="50%" valign="top">
 
 **Waveform**:  
 <img src="./docs/waveform/reset_test.png" width="350">
@@ -84,13 +84,14 @@
 </table>
 
 
+
 #### 1.2 Single Byte Loopback
+**목적**: 단일 바이트가 FIFO를 거쳐 UART Loopback을 통해 동일하게 출력되는지 검증  
+**결과**: 입력 0xA5 → 출력 0xA5 확인  
+
 <table>
 <tr>
-<td width="60%" valign="top">
-
-- **목적**: 단일 바이트가 FIFO를 거쳐 UART Loopback을 통해 동일하게 출력되는지 검증  
-- **결과**: 입력 0xA5 → 출력 0xA5 확인  
+<td width="50%" valign="top">
 
 **Log 요약**:
 <pre><code>[INFO] TX Data: 0xA5
@@ -99,7 +100,7 @@
 </code></pre>
 
 </td>
-<td width="40%" valign="top">
+<td width="50%" valign="top">
 
 **Waveform**:  
 <img src="./docs/waveform/single_byte.png" width="350">
@@ -107,6 +108,7 @@
 </td>
 </tr>
 </table>
+
 
 ### 🔹 2. Functional Cases
 
