@@ -60,16 +60,28 @@
 ### 🔹 1. Basic Cases
 
 #### 1.1 Reset Test
+<table>
+<tr>
+<td width="60%">
+  
 - **목적**: DUT Reset 동작 시, 내부 FIFO 및 TX/RX 상태가 초기화되는지 확인  
 - **결과**: 정상적으로 모든 레지스터가 초기화되고, 출력 신호가 idle 상태로 복귀함  
 - **Waveform**:  
-  ![Reset Test Waveform](./docs/waveform/reset_test.png)  
+  ![Reset Test Waveform](./docs/waveform/reset_test.png)
+  
 - **Log 요약**:
 ```text
 [INFO] Reset asserted at 100ns
 [INFO] FIFO empty: PASS
 [INFO] TX idle: PASS
+</td> <td width="40%">
 ```
+
+Waveform:
+<img src="./docs/waveform/reset_test.png" width="350">
+
+</td> </tr> </table>
+
 
 #### 1.2 Single Byte Loopback
 - **목적**: 단일 바이트가 FIFO를 거쳐 UART Loopback을 통해 동일하게 출력되는지 검증
