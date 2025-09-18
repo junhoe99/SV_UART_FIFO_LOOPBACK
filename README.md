@@ -84,20 +84,19 @@
 #### 1.2 Single Byte Loopback
 <table>
 <tr>
-<td width="60%">
+<td width="60%" valign="top">
 
 **목적**: 단일 바이트가 FIFO를 거쳐 UART Loopback을 통해 동일하게 출력되는지 검증  
 **결과**: 입력 0xA5 → 출력 0xA5 확인  
 
 **Log 요약**:
-<pre><code>
-[INFO] TX Data: 0xA5
+<pre><code>[INFO] TX Data: 0xA5
 [INFO] RX Data: 0xA5
 [PASS] Single Byte Loopback Test
 </code></pre>
 
 </td>
-<td width="40%">
+<td width="40%" valign="top">
 
 **Waveform**:  
 <img src="./docs/waveform/single_byte.png" width="350">
