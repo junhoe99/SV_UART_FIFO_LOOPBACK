@@ -84,7 +84,7 @@
 #### 1.2 Single Byte Loopback
 <table>
 <tr>
-<td width="70%">
+<td width="60%">
 
 **목적**: 단일 바이트가 FIFO를 거쳐 UART Loopback을 통해 동일하게 출력되는지 검증
 **결과**: 입력 0xA5 → 출력 0xA5 확인
