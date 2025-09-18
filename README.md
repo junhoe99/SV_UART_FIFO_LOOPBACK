@@ -86,8 +86,8 @@
 <tr>
 <td width="60%">
 
-**목적**: 단일 바이트가 FIFO를 거쳐 UART Loopback을 통해 동일하게 출력되는지 검증
-**결과**: 입력 0xA5 → 출력 0xA5 확인
+**목적**: 단일 바이트가 FIFO를 거쳐 UART Loopback을 통해 동일하게 출력되는지 검증  
+**결과**: 입력 0xA5 → 출력 0xA5 확인  
 
 **Log 요약**:
 <pre><code>
@@ -98,12 +98,12 @@
 
 </td>
 <td width="40%">
-  
-**Waveform**:
-<img src="./docs/waveform/reset_test.png" width="350">
-  
-</td> 
-</tr> 
+
+**Waveform**:  
+<img src="./docs/waveform/single_byte.png" width="350">
+
+</td>
+</tr>
 </table>
 
 ### 🔹 2. Functional Cases
