@@ -90,16 +90,21 @@
 **결과**: 입력 0xA5 → 출력 0xA5 확인
 
 **Log 요약**:
-```text
+<pre><code>
 [INFO] TX Data: 0xA5
 [INFO] RX Data: 0xA5
 [PASS] Single Byte Loopback Test
-```
+</code></pre>
 
+</td>
+<td width="40%">
+  
 **Waveform**:
 <img src="./docs/waveform/reset_test.png" width="350">
   
-</td> </tr> </table>
+</td> 
+</tr> 
+</table>
 
 ### 🔹 2. Functional Cases
 
