@@ -64,12 +64,10 @@
 <tr>
 <td width="60%">
   
-- **목적**: DUT Reset 동작 시, 내부 FIFO 및 TX/RX 상태가 초기화되는지 확인  
-- **결과**: 정상적으로 모든 레지스터가 초기화되고, 출력 신호가 idle 상태로 복귀함  
-- **Waveform**:  
-  ![Reset Test Waveform](./docs/waveform/reset_test.png)
-  
-- **Log 요약**:
+**목적**: DUT Reset 동작 시, 내부 FIFO 및 TX/RX 상태가 초기화되는지 확인  
+**결과**: 정상적으로 모든 레지스터가 초기화되고, 출력 신호가 idle 상태로 복귀함  
+    
+**Log 요약**:
 ```text
 [INFO] Reset asserted at 100ns
 [INFO] FIFO empty: PASS
@@ -77,7 +75,7 @@
 </td> <td width="40%">
 ```
 
-Waveform:
+**Waveform**:
 <img src="./docs/waveform/reset_test.png" width="350">
 
 </td> </tr> </table>
