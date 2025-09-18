@@ -113,29 +113,55 @@
 ### 🔹 2. Functional Cases
 
 #### 2.1 Sequential Data Flow
-- **목적**: 연속된 데이터 스트림이 손실 없이 전송/수신되는지 검증
-- **결과**: 입력 시퀀스 0x01 ~ 0x05 → 출력 동일하게 수신됨
-- **Waveform**:  
-  ![Reset Test Waveform](./docs/waveform/reset_test.png)  
-- **Log 요약**:
-```text
-[INFO] TX: 0x01, RX: 0x01
+- **목적**: 연속된 데이터 스트림이 손실 없이 전송/수신되는지 검증  
+- **결과**: 입력 시퀀스 0x01 ~ 0x05 → 출력 동일하게 수신됨  
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**Log 요약**:
+<pre><code>[INFO] TX: 0x01, RX: 0x01
 [INFO] TX: 0x02, RX: 0x02
 ...
 [PASS] Sequential Data Flow Test
-```
+</code></pre>
+
+</td>
+<td width="50%" valign="top">
+
+**Waveform**:  
+<img src="./docs/waveform/sequential.png" width="350">
+
+</td>
+</tr>
+</table>
+
 
 #### 2.2 Random Data Flow
-- **목적**: 랜덤 데이터 스트림에서 데이터 무결성 검증 및 FIFO Overflow/Underflow 여부 확인
-- **결과**: 1000개의 랜덤 데이터 모두 무결하게 전달됨, Overflow/Underflow 미발생
-- **Waveform**:  
-  ![Reset Test Waveform](./docs/waveform/reset_test.png)  
-- **Log 요약**:
-```text
-[INFO] Random test started (seed=42)
+- **목적**: 랜덤 데이터 스트림에서 데이터 무결성 검증 및 FIFO Overflow/Underflow 여부 확인  
+- **결과**: 1000개의 랜덤 데이터 모두 무결하게 전달됨, Overflow/Underflow 미발생  
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**Log 요약**:
+<pre><code>[INFO] Random test started (seed=42)
 [INFO] Total TX=1000, RX=1000, Error=0
 [PASS] Random Data Flow Test
-```
+</code></pre>
+
+</td>
+<td width="50%" valign="top">
+
+**Waveform**:  
+<img src="./docs/waveform/random.png" width="350">
+
+</td>
+</tr>
+</table>
+
 
 ## 🔥 Insights
 --------------------------
